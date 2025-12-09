@@ -1,15 +1,4 @@
-# Embedded Systems Programming – Closed-Loop Controller (Linux)
 
-Este proyecto implementa una pequeña aplicación en C que simula un sistema embebido sencillo:
-
-- Una **librería de sensor** (`sensor/`)
-- Una **interfaz polimórfica de actuadores** (`actuators/`)
-- Un **controlador en lazo cerrado** (`controller/ctl.c`) que:
-  - Muestra el sensor cada 100 ms usando tiempo monotónico
-  - Enciende LED y buzzer cuando la lectura supera un umbral
-  - Programa el apagado diferido del buzzer (1 s) y del LED (5 s) cuando la lectura cae por debajo del umbral
-
-El objetivo del ejercicio es practicar:
 # Embedded Closed-Loop Controller (Linux)
 
 Proyecto de ejemplo en C que implementa un controlador en lazo cerrado sencillo, pensado para practicar separación modular, uso de headers, y polimorfismo en C a través de punteros a función.
